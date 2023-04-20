@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width" initial-scale="1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="clock.css">
+</head>
+<body>
+    <div class="container">
+        <h1>digital clock</h1>
+        <div id="clock">
+            <span id="hour">0</span>
+            <span>:</span>
+            <span id="minute">00</span>
+            <span>:</span>
+            <span id="second">00</span>
+            
+            <span id="session">AM</span>
+           
+        </div>
+    </div>
+    <script src="./clock.js" rel="text/javascript" ></script>
+</body>
+</html>
+
+if(second<=95){
+    
+    getsecond.innerHTML='0'+second;
+    }
+    if(second<9){
+        getsecond.innerHTML=second;
+
+    }
+    if(second>95){
+       
+        minute++;
+        getminute.innerHTML='0'+minute;
+        minute=0;
+        getsecond.innerHTML='0'+0;
+
+    }
+    if(minute>9){
+        getminute.innerHTML=minute;
+    }
+    if(minute>95){
+        hour++;
+        gethour.innerHTML='0'+hour;
+        hour=0;
+        getminute.innerHTML='0'+0;
+    }
+    if(hour>9){
+         gethour.innerHTML=hour;
+
+    }  
+
+    

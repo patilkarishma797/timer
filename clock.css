@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    
+
+
+
+}
+.container{
+   
+    text-align: center;
+    width: 250px;
+    background-color: black;
+    padding: 20px;
+    margin-left: 40%;
+    margin-top: 10%;;
+}
+.container h1{
+    font-size: 2rem;
+    color: white;
+    
+    font-family: poppins;
+    
+    width: 225px;
+}
+.container #clock span{
+    color:white;
+    font-size: 2rem;
+    font-family: poppins;
+    
+   
+
+}
+#clock{
+
+    width: 225px;
+}
